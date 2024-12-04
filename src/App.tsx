@@ -8,6 +8,9 @@ function App() {
   return (
     <>
       <h1>iphonepay.ru</h1>
+      <button onClick={() => setCount((count) => count + 1)}>
+        count is {count}
+      </button>
     </>
   );
 }
