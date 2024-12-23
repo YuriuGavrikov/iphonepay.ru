@@ -87,7 +87,7 @@ const myStore = useMyStore();
 
       &:checked {
         border: 1px solid rgb(255, 255, 255);
-        box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.5);
+        box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
       }
     }
   }
