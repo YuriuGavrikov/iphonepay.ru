@@ -98,23 +98,23 @@ input[type="checkbox"] {
   background: rgb(44, 62, 80);
   top: 0;
   margin-bottom: 10px;
-  transition: 0.1s;
+  transition: 0.2s;
   border: none;
   margin-left: auto;
   margin-right: auto;
 }
 
 .line-1 {
-  transition-delay: 0.2s;
+  transition-delay: 0.3s;
 }
 
 .line-2 {
-  transition-delay: 0.4s;
+  transition-delay: 0.3s;
 }
 
 .line-3 {
   margin-bottom: 0;
-  transition-delay: 0.6s;
+  transition-delay: 0.3s;
 }
 
 #btn-1:checked ~ label .hamburger {
@@ -128,12 +128,12 @@ input[type="checkbox"] {
 
 #btn-1:checked ~ label .line-2 {
   width: 0;
-  transition-delay: 0.2s;
+  transition-delay: 0.1s;
 }
 
 #btn-1:checked ~ label .line-3 {
   width: 0;
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
 
 .cross,
@@ -144,12 +144,12 @@ input[type="checkbox"] {
   background: rgb(93, 62, 59);
   top: 50%;
   left: 50%;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 .cross {
   transform: translate(-50%, -50%) rotate(45deg);
-  transition-delay: 0.2s;
+  transition-delay: 0.1s;
 }
 
 .cross:after {
@@ -165,6 +165,6 @@ input[type="checkbox"] {
 
 #btn-1:checked ~ label .cross:after {
   width: 40px;
-  transition-delay: 0.4s;
+  transition-delay: 0.3s;
 }
 </style>
