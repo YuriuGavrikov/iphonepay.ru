@@ -12,7 +12,7 @@ const myStore = useMyStore();
 
 <template>
   <header class="header">
-    <div class="logo">iPhonePay{{ www }}</div>
+    <div class="logo">iPhonePay</div>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
@@ -78,7 +78,7 @@ const myStore = useMyStore();
   justify-content: space-between;
   gap: 150px;
 
-  padding: 0 50px 0 30px;
+  padding: 0 30px 0 30px;
 
   width: 100%;
   height: 60px;

@@ -1,7 +1,16 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const myCheckbox = ref(false);
+</script>
 
 <template>
-  <input id="btn-1" type="checkbox" />
+  <input
+    id="btn-1"
+    type="checkbox"
+    @click="myCheckbox = !myCheckbox"
+    :checked="myCheckbox"
+  />
   <label for="btn-1">
     <span class="hamburger">
       <span class="line-1"></span>
@@ -10,9 +19,57 @@
       <span class="cross"></span>
     </span>
   </label>
+  <nav class="nav" v-show="myCheckbox">
+    <ul class="nav__list">
+      <li class="nav__item">iPhone</li>
+      <li class="nav__item">AirPods</li>
+      <li class="nav__item">IPad</li>
+      <li class="nav__item">Watch</li>
+    </ul>
+  </nav>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@keyframes scale-up-ver-top {
+  0% {
+    transform: scaleY(0.4);
+    transform-origin: 100% 0%;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+  }
+}
+.nav {
+  display: flex;
+  align-items: start;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #fff;
+  padding: 30px;
+
+  z-index: 20;
+  animation: scale-up-ver-top 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    list-style-type: none;
+  }
+
+  &__item {
+    font-size: 40px;
+  }
+}
+/* --------------------------------------------------------------- */
 input[type="checkbox"] {
   display: none;
 }
@@ -27,6 +84,8 @@ input[type="checkbox"] {
   padding: 10px;
   width: 60px;
   height: 50px;
+
+  z-index: 40;
 }
 
 .line-1,
@@ -39,23 +98,23 @@ input[type="checkbox"] {
   background: rgb(44, 62, 80);
   top: 0;
   margin-bottom: 10px;
-  transition: 0.5s;
+  transition: 0.1s;
   border: none;
   margin-left: auto;
   margin-right: auto;
 }
 
 .line-1 {
-  transition-delay: 0.5s;
+  transition-delay: 0.2s;
 }
 
 .line-2 {
-  transition-delay: 0.8s;
+  transition-delay: 0.4s;
 }
 
 .line-3 {
   margin-bottom: 0;
-  transition-delay: 0.9s;
+  transition-delay: 0.6s;
 }
 
 #btn-1:checked ~ label .hamburger {
@@ -64,17 +123,17 @@ input[type="checkbox"] {
 
 #btn-1:checked ~ label .line-1 {
   width: 0;
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
 
 #btn-1:checked ~ label .line-2 {
   width: 0;
-  transition-delay: 0.5s;
+  transition-delay: 0.2s;
 }
 
 #btn-1:checked ~ label .line-3 {
   width: 0;
-  transition-delay: 0.6s;
+  transition-delay: 0.3s;
 }
 
 .cross,
@@ -85,12 +144,12 @@ input[type="checkbox"] {
   background: rgb(93, 62, 59);
   top: 50%;
   left: 50%;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 .cross {
   transform: translate(-50%, -50%) rotate(45deg);
-  transition-delay: 0.4s;
+  transition-delay: 0.2s;
 }
 
 .cross:after {
@@ -101,11 +160,11 @@ input[type="checkbox"] {
 
 #btn-1:checked ~ label .cross {
   width: 40px;
-  transition-delay: 0.8s;
+  transition-delay: 0.3s;
 }
 
 #btn-1:checked ~ label .cross:after {
   width: 40px;
-  transition-delay: 1.1s;
+  transition-delay: 0.4s;
 }
 </style>
