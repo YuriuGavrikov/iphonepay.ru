@@ -45,7 +45,7 @@ const myCheckbox = ref(false);
   align-items: start;
 
   position: fixed;
-  top: 0;
+  top: 40px;
   left: 0;
 
   width: 100%;
