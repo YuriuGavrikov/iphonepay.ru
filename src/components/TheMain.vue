@@ -29,7 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <main class="main">
+  <main class="main" :class="myStore.helpers.myCheckbox ? 'stels' : ''">
     <div class="video__wrapper">
       <video
         ref="video"
@@ -104,6 +104,11 @@ onMounted(() => {
 
     cursor: pointer;
   }
+}
+
+.stels {
+  height: 0vh;
+  overflow: hidden;
 }
 
 .main {

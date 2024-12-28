@@ -19,5 +19,6 @@ import TheMain from "./components/TheMain.vue";
   align-items: center;
 
   width: 100%;
+
 }
 </style>

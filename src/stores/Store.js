@@ -221,11 +221,14 @@ export const useMyStore = defineStore("myStore", {
           gpu: "",
         },
       },
+      helpers: {
+        myCheckbox: false,
+      },
     };
   },
   actions: {
-    setCurentCity(city) {
-      this.curentCity.city = city;
+    setMyCheckbox() {
+      this.helpers.myCheckbox = !this.helpers.myCheckbox;
     },
   },
 });

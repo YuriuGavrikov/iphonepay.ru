@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+import { useMyStore } from "../stores/Store";
+const myStore = useMyStore();
 
 const myCheckbox = ref(false);
 </script>
@@ -8,8 +10,8 @@ const myCheckbox = ref(false);
   <input
     id="btn-1"
     type="checkbox"
-    @click="myCheckbox = !myCheckbox"
-    :checked="myCheckbox"
+    @click="myStore.setMyCheckbox"
+    :checked="myStore.helpers.myCheckbox"
   />
   <label for="btn-1">
     <span class="hamburger">
@@ -19,7 +21,7 @@ const myCheckbox = ref(false);
       <span class="cross"></span>
     </span>
   </label>
-  <nav class="nav" v-show="myCheckbox">
+  <nav class="nav" v-show="myStore.helpers.myCheckbox">
     <ul class="nav__list">
       <li class="nav__item">iPhone</li>
       <li class="nav__item">AirPods</li>
