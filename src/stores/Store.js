@@ -222,13 +222,13 @@ export const useMyStore = defineStore("myStore", {
         },
       },
       helpers: {
-        myCheckbox: false,
+        showNavigation: false,
       },
     };
   },
   actions: {
-    setMyCheckbox() {
-      this.helpers.myCheckbox = !this.helpers.myCheckbox;
+    setShowNavigation() {
+      this.helpers.showNavigation = !this.helpers.showNavigation;
     },
   },
 });

@@ -1,24 +1,22 @@
 <script setup>
-// import { ref } from "vue";
-
-// import { useMyStore } from "../stores/Store";
-// const myStore = useMyStore();
-
-import { ref } from "vue";
-import { useMyStore } from "../stores/Store";
+import { RouterLink } from "vue-router";
+import { useMyStore } from "../../stores/Store";
 import TheHumburger from "./TheHamburger.vue";
 const myStore = useMyStore();
 </script>
 
 <template>
   <header class="header">
-    <div class="logo">iPhonePay</div>
+    <div class="logo">
+      <RouterLink to="/"> iPhonePay </RouterLink>
+    </div>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
-          iPhone
+          <RouterLink to="/iphones">iPhones</RouterLink>
+
           <div class="nav__item__inner">
-            <p class="nav__item__inner__title">iPhones</p>
+            <p class="nav__item__inner__title">All iPhones</p>
             <ul class="nav__item__inner__list">
               <li class="nav__item__inner__item">iPhone 15</li>
               <li class="nav__item__inner__item">iPhone 15</li>
@@ -29,9 +27,9 @@ const myStore = useMyStore();
         </li>
 
         <li class="nav__item">
-          AirPods
+          <RouterLink to="/airpods">AirPods</RouterLink>
           <div class="nav__item__inner">
-            <div class="nav__item__inner__title">AirPods</div>
+            <div class="nav__item__inner__title">All AirPods</div>
             <ul class="nav__item__inner__list">
               <li class="nav__item__inner__item">AirPods 15</li>
               <li class="nav__item__inner__item">AirPods 15</li>
@@ -41,9 +39,9 @@ const myStore = useMyStore();
           </div>
         </li>
         <li class="nav__item">
-          IPad
+          <RouterLink to="/ipads">iPads</RouterLink>
           <div class="nav__item__inner">
-            <div class="nav__item__inner__title">IPad</div>
+            <div class="nav__item__inner__title">All IPad</div>
             <ul class="nav__item__inner__list">
               <li class="nav__item__inner__item">IPad 15</li>
               <li class="nav__item__inner__item">IPad 15</li>
@@ -53,9 +51,9 @@ const myStore = useMyStore();
           </div>
         </li>
         <li class="nav__item">
-          Watch
+          <RouterLink to="/watches">Watches</RouterLink>
           <div class="nav__item__inner">
-            <div class="nav__item__inner__title">Watch</div>
+            <div class="nav__item__inner__title">All Watch</div>
             <ul class="nav__item__inner__list">
               <li class="nav__item__inner__item">Watch 15</li>
               <li class="nav__item__inner__item">Watch 15</li>
@@ -89,7 +87,6 @@ const myStore = useMyStore();
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
   font-weight: 600;
 }
 .nav {

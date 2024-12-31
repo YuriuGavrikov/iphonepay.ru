@@ -1,17 +1,16 @@
 <script setup>
 import { ref } from "vue";
-import { useMyStore } from "../stores/Store";
+import { useMyStore } from "../../stores/Store";
+import TheHamburgerList from "./TheHamburgerList.vue";
 const myStore = useMyStore();
-
-const myCheckbox = ref(false);
 </script>
 
 <template>
   <input
     id="btn-1"
     type="checkbox"
-    @click="myStore.setMyCheckbox"
-    :checked="myStore.helpers.myCheckbox"
+    @click="myStore.setShowNavigation"
+    :checked="myStore.helpers.showNavigation"
   />
   <label for="btn-1">
     <span class="hamburger">
@@ -21,14 +20,6 @@ const myCheckbox = ref(false);
       <span class="cross"></span>
     </span>
   </label>
-  <nav class="nav" v-show="myStore.helpers.myCheckbox">
-    <ul class="nav__list">
-      <li class="nav__item">iPhone</li>
-      <li class="nav__item">AirPods</li>
-      <li class="nav__item">IPad</li>
-      <li class="nav__item">Watch</li>
-    </ul>
-  </nav>
 </template>
 
 <style lang="scss" scoped>
