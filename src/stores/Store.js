@@ -221,6 +221,50 @@ export const useMyStore = defineStore("myStore", {
           gpu: "",
         },
       },
+      slides: {
+        iphonesSlides: [
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/apple_intelligence__gbh77cvflkia_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/camera__exi2qfijti0y_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/battery__2v7w6kmztvm2_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/innovation__os9bmmo3mjee_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/environment__e3v3gj88dl6q_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/personalize__dwg8srggrbo2_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/privacy__ckc0wa30o55y_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+          {
+            url: "https://www.apple.com/v/iphone/home/by/images/overview/consider/safety__bwp7rsowtjiu_small_2x.jpg",
+            title: "",
+            desc: "",
+          },
+        ],
+      },
       helpers: {
         showNavigation: false,
       },
