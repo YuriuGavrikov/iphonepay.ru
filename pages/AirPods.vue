@@ -34,7 +34,7 @@ const filteredAirPods = computed(() => {
 .airpods {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   width: 100%;
   &__header {
     display: flex;
