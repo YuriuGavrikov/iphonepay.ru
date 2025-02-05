@@ -87,9 +87,12 @@ const getImg = (iphone, curentColor) => {
   gap: 10px;
 
   &__title {
+    display: flex;
+    align-items: center;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    min-height: 70px;
   }
   &__img {
     display: flex;
