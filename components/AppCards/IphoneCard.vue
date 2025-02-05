@@ -147,6 +147,7 @@ const getImg = (iphone, curentColor) => {
 }
 @media (max-width: 1200px) {
   .card__colors {
+    gap: 3px;
     .radio-input {
       width: 25px;
       height: 25px;
