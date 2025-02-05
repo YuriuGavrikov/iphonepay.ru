@@ -149,8 +149,8 @@ const getImg = (iphone, curentColor) => {
   .card__colors {
     gap: 3px;
     .radio-input {
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
     }
   }
 }
