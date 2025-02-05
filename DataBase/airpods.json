@@ -1,0 +1,83 @@
+{
+  "video": {
+    "videoUrl": "https://www.apple.com/105/media/us/airpods/2024/b4e8e99e-af2c-413e-84d4-50a9a5ee4fe3/anim/airpods/large_2x.mp4",
+    "videoPoster": "https://www.apple.com/v/airpods/x/images/overview/airpods_startframe__fesgym4ta7u6_medium.jpg"
+  },
+
+  "AirPods (2nd Generation)": {
+    "model": "AirPods (2nd Generation)",
+    "release_year": 2019,
+    "type": "Вкладыши",
+    "chip": "Apple H1",
+    "noise_cancellation": false,
+    "transparency_mode": false,
+    "battery_life": {
+      "earbuds": "До 5 часов",
+      "with_case": "До 24 часов"
+    },
+    "charging_case": {
+      "type": "Lightning или Wireless Charging Case",
+      "wireless_charging": "Опционально (Qi)"
+    },
+    "features": ["Hey Siri", "Улучшенное время отклика"],
+    "img": "https://www.apple.com/v/airpods/compare/g/images/overview/airpods_2gen_white__benan2ckzxyq_large.png"
+  },
+  "AirPods (3rd Generation)": {
+    "model": "AirPods (3rd Generation)",
+    "release_year": 2021,
+    "type": "Вкладыши (улучшенный дизайн)",
+    "chip": "Apple H1",
+    "noise_cancellation": false,
+    "transparency_mode": false,
+    "battery_life": {
+      "earbuds": "До 6 часов",
+      "with_case": "До 30 часов"
+    },
+    "charging_case": {
+      "type": "MagSafe, Qi, Lightning",
+      "wireless_charging": true
+    },
+    "features": ["Пространственное аудио", "Адаптивный эквалайзер"],
+    "img": "https://www.apple.com/v/airpods/compare/g/images/overview/airpods_3gen_white__car4z3m37ss2_large.png"
+  },
+  "AirPods Pro (2nd Generation)": {
+    "model": "AirPods Pro (2nd Generation)",
+    "release_year": 2022,
+    "type": "Внутриканальные",
+    "chip": "Apple H2",
+    "noise_cancellation": true,
+    "transparency_mode": true,
+    "battery_life": {
+      "earbuds": "До 6 часов (с ANC)",
+      "with_case": "До 30 часов"
+    },
+    "charging_case": {
+      "type": "USB-C + MagSafe, встроенный динамик и ремешок",
+      "wireless_charging": true
+    },
+    "features": [
+      "Улучшенное шумоподавление",
+      "Пространственное аудио с динамическим трекингом головы"
+    ],
+    "img": "https://www.apple.com/v/airpods/compare/g/images/overview/airpods_pro_white__cd2arklqu16q_large.png"
+  },
+  "AirPods Max": {
+    "model": "AirPods Max",
+    "release_year": 2020,
+    "type": "Накладные",
+    "chip": "Apple H1 (×2)",
+    "noise_cancellation": true,
+    "transparency_mode": true,
+    "battery_life": {
+      "earbuds": "До 20 часов (с ANC)"
+    },
+    "charging_case": { "type": "Smart Case (режим энергосбережения)" },
+
+    "features": [
+      "Адаптивное аудио",
+      "Анодное алюминиевое оголовье",
+      "Сменные амбушюры"
+    ],
+    "img": "https://www.apple.com/v/airpods/compare/g/images/overview/airpods_max_midnight__gbjhmammlc2m_large.png"
+  }
+}

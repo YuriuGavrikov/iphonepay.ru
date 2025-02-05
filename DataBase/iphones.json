@@ -1,0 +1,789 @@
+{
+  "video": {
+    "videoUrl": "https://www.apple.com/105/media/us/iphone/family/2024/cf19f185-dd7e-4350-97ff-e44860713b54/anim/welcome/xlarge_2x.mp4",
+    "videoPoster": "https://www.apple.com/v/iphone/home/ca/images/overview/welcome/us/welcome_startframe__bqlrw3voffaq_xlarge.jpg"
+  },
+  "iPhone_15": {
+    "model": "iPhone 15",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.1 дюймов",
+      "refresh_rate": "60 Гц"
+    },
+    "processor": {
+      "chip": "A16 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "48 МП",
+        "ultra_wide": "12 МП, угол обзора 120°"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 20 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "USB-C"
+    },
+    "operating_system": {
+      "initial": "iOS 17"
+    },
+    "colors": {
+      "Yellow": {
+        "colorName": "Yellow",
+        "HEX": "#E6E0C1",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_yellow__fki7vnyw9t26_large.jpg"
+      },
+      "Green": {
+        "colorName": "Green",
+        "HEX": "#CAD4C5",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_green__ek6tgqy9fbsm_large.jpg"
+      },
+      "Pink": {
+        "colorName": "Pink",
+        "HEX": "#E3C8CA",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pink__e731ayt2rc66_large.jpg"
+      },
+      "Blue": {
+        "colorName": "Blue",
+        "HEX": "#CED5D9",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_blue__f9xmqcw1fsia_large.jpg"
+      },
+      "Black": {
+        "colorName": "Black",
+        "HEX": "#35393B",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_black__dctrrofz8vwy_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Алюминий с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "171 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_15_Plus": {
+    "model": "iPhone 15 Plus",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.7 дюймов",
+      "refresh_rate": "60 Гц"
+    },
+    "processor": {
+      "chip": "A16 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "48 МП",
+        "ultra_wide": "12 МП, угол обзора 120°"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 26 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "USB-C"
+    },
+    "operating_system": {
+      "initial": "iOS 17"
+    },
+    "colors": {
+      "Yellow": {
+        "colorName": "Yellow",
+        "HEX": "#E6E0C1",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_plus_yellow__frmkkxhqdb6m_large.jpg"
+      },
+      "Green": {
+        "colorName": "Green",
+        "HEX": "#CAD4C5",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_plus_green__d23shezr4g4m_large.jpg"
+      },
+      "Pink": {
+        "colorName": "Pink",
+        "HEX": "#E3C8CA",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_plus_pink__f2guv5kpexqy_large.jpg"
+      },
+      "Blue": {
+        "colorName": "Blue",
+        "HEX": "#CED5D9",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_plus_blue__ffrkwums696y_large.jpg"
+      },
+      "Black": {
+        "colorName": "Black",
+        "HEX": "#35393B",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_plus_black__bnqouk1wnsgi_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Алюминий с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "201 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_15_Pro": {
+    "model": "iPhone 15 Pro",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.1 дюймов",
+      "refresh_rate": "120 Гц (ProMotion)"
+    },
+    "processor": {
+      "chip": "A17 Pro",
+      "cores": "6-ядерный CPU, 6-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ", "1 ТБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "48 МП",
+        "ultra_wide": "12 МП, угол обзора 120°",
+        "telephoto": "12 МП, 3x оптический зум"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 23 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "USB-C (USB 3.2 Gen 2)"
+    },
+    "operating_system": {
+      "initial": "iOS 17"
+    },
+    "colors": {
+      "NaturalTitanium": {
+        "colorName": "NaturalTitanium",
+        "HEX": "#837f7d",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_natural_titanium__bgbrds3u9bxu_large.jpg"
+      },
+      "BlueTitanium": {
+        "colorName": "BlueTitanium",
+        "HEX": "#2f4452",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_blue_titanium__qh0ufmknzyi6_large.jpg"
+      },
+      "WhiteTitanium": {
+        "colorName": "WhiteTitanium",
+        "HEX": "#dddddd",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_white_titanium__f76d2cwx6tyu_large.jpg"
+      },
+      "BlackTitanium": {
+        "colorName": "BlackTitanium",
+        "HEX": "#1b1b1b",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_black_titanium__fqpdna4tvtym_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Титан с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "187 г"
+    },
+    "additional_features": ["Face ID", "MagSafe", "Action Button"]
+  },
+  "iPhone_15_Pro_Max": {
+    "model": "iPhone 15 Pro Max",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.7 дюймов",
+      "refresh_rate": "120 Гц (ProMotion)"
+    },
+    "processor": {
+      "chip": "A17 Pro",
+      "cores": "6-ядерный CPU, 6-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["256 ГБ", "512 ГБ", "1 ТБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "48 МП",
+        "ultra_wide": "12 МП, угол обзора 120°",
+        "telephoto": "12 МП, 5x оптический зум"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 29 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "USB-C (USB 3.2 Gen 2)"
+    },
+    "operating_system": {
+      "initial": "iOS 17"
+    },
+    "colors": {
+      "NaturalTitanium": {
+        "colorName": "NaturalTitanium",
+        "HEX": "#837f7d",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_max_natural_titanium__cwvhu0t3ztg2_large.jpg"
+      },
+      "BlueTitanium": {
+        "colorName": "BlueTitanium",
+        "HEX": "#2f4452",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_max_blue_titanium__gcr7u7pdzdme_large.jpg"
+      },
+      "WhiteTitanium": {
+        "colorName": "WhiteTitanium",
+        "HEX": "#dddddd",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_max_white_titanium__e8y0mqc5aci2_large.jpg"
+      },
+      "BlackTitanium": {
+        "colorName": "BlackTitanium",
+        "HEX": "#1b1b1b",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_max_black_titanium__f84o6hevii2q_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Титан с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "221 г"
+    },
+    "additional_features": ["Face ID", "MagSafe", "Action Button"]
+  },
+  "iPhone_14": {
+    "model": "iPhone 14",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.1 дюймов",
+      "refresh_rate": "60 Гц"
+    },
+    "processor": {
+      "chip": "A15 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "12 МП",
+        "ultra_wide": "12 МП, угол обзора 120°"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 20 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 16"
+    },
+    "colors": {
+      "BlueTitanium": {
+        "colorName": "BlueTitanium",
+        "HEX": "#2f4452",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_blue_titanium__qh0ufmknzyi6_large.jpg"
+      },
+      "BlackTitanium": {
+        "colorName": "BlackTitanium",
+        "HEX": "#1b1b1b",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_black_titanium__fqpdna4tvtym_large.jpg"
+      },
+      "NaturalTitanium": {
+        "colorName": "NaturalTitanium",
+        "HEX": "#837f7d",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_natural_titanium__bgbrds3u9bxu_large.jpg"
+      },
+      "WhiteTitanium": {
+        "colorName": "WhiteTitanium",
+        "HEX": "#dddddd",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone15_pro_white_titanium__f76d2cwx6tyu_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Алюминий с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "172 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_14_Plus": {
+    "model": "iPhone 14 Plus",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.7 дюймов",
+      "refresh_rate": "60 Гц"
+    },
+    "processor": {
+      "chip": "A15 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "12 МП",
+        "ultra_wide": "12 МП, угол обзора 120°"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 26 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 16"
+    },
+    "colors": {
+      "Blue": {
+        "colorName": "Blue",
+        "HEX": "#a0b4c7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_plus_blue__b0d962pvwgpe_large.jpg"
+      },
+      "Purple": {
+        "colorName": "Purple",
+        "HEX": "#e6ddeb",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_plus_purple__ej7pvuaew2wm_large.jpg"
+      },
+      "Yellow": {
+        "colorName": "Yellow",
+        "HEX": "#f9e479",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_plus_yellow__bddf8cj8eybm_large.jpg"
+      },
+      "Midnight": {
+        "colorName": "Midnight",
+        "HEX": "#222930",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_plus_midnight__er3dlaaha9m6_large.jpg"
+      },
+      "Starlight": {
+        "colorName": "Starlight",
+        "HEX": "#faf6f2",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_plus_starlight__bax7rq0q1i5u_large.jpg"
+      },
+      "Red": {
+        "colorName": "Red",
+        "HEX": "#fc0324",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_plus_red__b3qi4ni3oqwi_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Алюминий с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "203 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_14_Pro": {
+    "model": "iPhone 14 Pro",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.1 дюймов",
+      "refresh_rate": "120 Гц (ProMotion)"
+    },
+    "processor": {
+      "chip": "A16 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ", "1 ТБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "48 МП",
+        "ultra_wide": "12 МП, угол обзора 120°",
+        "telephoto": "12 МП, 3x оптический зум"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 23 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 16"
+    },
+    "colors": {
+      "DeepPurple": {
+        "colorName": "DeepPurple",
+        "HEX": "#594f63",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_deep_purple__dph35o9jr32a_large.jpg"
+      },
+      "Gold": {
+        "colorName": "Gold",
+        "HEX": "#f4e8ce",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_gold__cz0qypeiriqa_large.jpg"
+      },
+      "Silver": {
+        "colorName": "Silver",
+        "HEX": "#f0f2f2",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_silver__b9d71lcl3oaa_large.jpg"
+      },
+      "SpaceBlack": {
+        "colorName": "SpaceBlack",
+        "HEX": "#403e3d",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_space_black__cwa3zve59k66_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Нержавеющая сталь с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "206 г"
+    },
+    "additional_features": ["Face ID", "MagSafe", "Dynamic Island"]
+  },
+  "iPhone_14_Pro_Max": {
+    "model": "iPhone 14 Pro Max",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.7 дюймов",
+      "refresh_rate": "120 Гц (ProMotion)"
+    },
+    "processor": {
+      "chip": "A16 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ", "1 ТБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "48 МП",
+        "ultra_wide": "12 МП, угол обзора 120°",
+        "telephoto": "12 МП, 3x оптический зум"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 29 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 16"
+    },
+    "colors": {
+      "DeepPurple": {
+        "colorName": "DeepPurple",
+        "HEX": "#594f63",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_max_deep_purple__diuabahv3w4m_large.jpg"
+      },
+      "Gold": {
+        "colorName": "Gold",
+        "HEX": "#f4e8ce",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_max_gold__d4ji4p0rioeq_large.jpg"
+      },
+      "Silver": {
+        "colorName": "Silver",
+        "HEX": "#f0f2f2",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_max_silver__bwa8sk5umjf6_large.jpg"
+      },
+      "SpaceBlack": {
+        "colorName": "SpaceBlack",
+        "HEX": "#403e3d",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone14_pro_max_space_black__bzjjitrfff2a_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Нержавеющая сталь с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "240 г"
+    },
+    "additional_features": ["Face ID", "MagSafe", "Dynamic Island"]
+  },
+  "iPhone_13_mini": {
+    "model": "iPhone 13 mini",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "5.4 дюймов",
+      "refresh_rate": "60 Гц"
+    },
+    "processor": {
+      "chip": "A15 Bionic",
+      "cores": "6-ядерный CPU, 4-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "12 МП",
+        "ultra_wide": "12 МП, угол обзора 120°"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 17 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 15"
+    },
+    "colors": {
+      "Pink": {
+        "colorName": "Pink",
+        "HEX": "#E3C8CA",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_mini_pink__dwss1czwg66a_large.jpg"
+      },
+      "Blue": {
+        "colorName": "Blue",
+        "HEX": "#CED5D9",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_mini_blue__chw0gb69wnte_large.jpg"
+      },
+      "Green": {
+        "colorName": "Green",
+        "HEX": "#394c38",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_mini_green__gkgdbid32fe6_large.jpg"
+      },
+      "Midnight": {
+        "colorName": "Midnight",
+        "HEX": "#35393B",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_mini_midnight__dk0foz4z4ne6_large.jpg"
+      },
+      "Starlight": {
+        "colorName": "Starlight",
+        "HEX": "#F5F5F7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_mini_starlight__fxlw5z3qhfau_large.jpg"
+      },
+      "Red": {
+        "colorName": "Red",
+        "HEX": "#D62839",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_mini_product_red__dnva9lbnblg2_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Алюминий с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "140 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_13": {
+    "model": "iPhone 13",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.1 дюймов",
+      "refresh_rate": "60 Гц"
+    },
+    "processor": {
+      "chip": "A15 Bionic",
+      "cores": "6-ядерный CPU, 4-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "12 МП",
+        "ultra_wide": "12 МП, угол обзора 120°"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 19 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 15"
+    },
+    "colors": {
+      "Pink": {
+        "colorName": "Pink",
+        "HEX": "#E3C8CA",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pink__epn5x8y336uu_large.jpg"
+      },
+      "Blue": {
+        "colorName": "Blue",
+        "HEX": "#CED5D9",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_blue__ca74x83zbcpe_large.jpg"
+      },
+      "Green": {
+        "colorName": "Green",
+        "HEX": "#394c38",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_green__djhme72ls0ae_large.jpg"
+      },
+      "Midnight": {
+        "colorName": "Midnight",
+        "HEX": "#35393B",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_midnight__c0cfacdpauoi_large.jpg"
+      },
+      "Starlight": {
+        "colorName": "Starlight",
+        "HEX": "#F5F5F7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_starlight__esudx06azmeu_large.jpg"
+      },
+      "Red": {
+        "colorName": "Red",
+        "HEX": "#D62839",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_product_red__fsllefvsfwq6_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Алюминий с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "174 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_13_Pro": {
+    "model": "iPhone 13 Pro",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.1 дюймов",
+      "refresh_rate": "120 Гц (ProMotion)"
+    },
+    "processor": {
+      "chip": "A15 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ", "1 ТБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "12 МП",
+        "ultra_wide": "12 МП, угол обзора 120°",
+        "telephoto": "12 МП, 3x оптический зум"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 22 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 15"
+    },
+    "colors": {
+      "Graphite": {
+        "colorName": "Graphite",
+        "HEX": "#3A3A3C",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_graphite__bhlup2571xde_large.jpg"
+      },
+      "AlpineGreen": {
+        "colorName": "AlpineGreen",
+        "HEX": "#576856",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_alpine_green__cvrboc843eky_large.jpg"
+      },
+      "Gold": {
+        "colorName": "Gold",
+        "HEX": "#F5E6C8",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_gold__fqgrqbtx0cey_large.jpg"
+      },
+      "Silver": {
+        "colorName": "Silver",
+        "HEX": "#F5F5F7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_silver__wcwzdoknt8i6_large.jpg"
+      },
+      "SierraBlue": {
+        "colorName": "SierraBlue",
+        "HEX": "#5E8AA7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_sierra_blue__df445afbjvu6_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Нержавеющая сталь с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "204 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  },
+  "iPhone_13_Pro_Max": {
+    "model": "iPhone 13 Pro Max",
+    "display": {
+      "type": "Super Retina XDR OLED",
+      "size": "6.7 дюймов",
+      "refresh_rate": "120 Гц (ProMotion)"
+    },
+    "processor": {
+      "chip": "A15 Bionic",
+      "cores": "6-ядерный CPU, 5-ядерный GPU, 16-ядерный Neural Engine"
+    },
+    "storage": {
+      "options": ["128 ГБ", "256 ГБ", "512 ГБ", "1 ТБ"]
+    },
+    "camera": {
+      "rear": {
+        "main": "12 МП",
+        "ultra_wide": "12 МП, угол обзора 120°",
+        "telephoto": "12 МП, 3x оптический зум"
+      },
+      "front": {
+        "resolution": "12 МП"
+      }
+    },
+    "battery": {
+      "usage": "До 28 часов воспроизведения видео"
+    },
+    "connectivity": {
+      "usb": "Lightning"
+    },
+    "operating_system": {
+      "initial": "iOS 15"
+    },
+    "colors": {
+      "Graphite": {
+        "colorName": "Graphite",
+        "HEX": "#3A3A3C",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_max_graphite__fn47apobzr6m_large.jpg"
+      },
+      "Gold": {
+        "colorName": "Gold",
+        "HEX": "#F5E6C8",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_max_gold__fify305kndym_large.jpg"
+      },
+      "Silver": {
+        "colorName": "Silver",
+        "HEX": "#F5F5F7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_max_silver__d86ajrc5k30i_large.jpg"
+      },
+      "SierraBlue": {
+        "colorName": "SierraBlue",
+        "HEX": "#5E8AA7",
+        "link": "https://www.apple.com/v/iphone/compare/ah/images/overview/compare_iphone13_pro_max_sierra_blue__fwowy26ofpay_large.jpg"
+      }
+    },
+    "body": {
+      "material": "Нержавеющая сталь с защитой Ceramic Shield",
+      "water_resistance": "IP68 (до 6 метров на 30 минут)",
+      "weight": "240 г"
+    },
+    "additional_features": ["Face ID", "MagSafe"]
+  }
+}

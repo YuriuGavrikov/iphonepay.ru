@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /iphones/
+Allow: /airpods/
+Allow: /ipads/
+Allow: /watches/
+Allow: /blog/
+
+Sitemap: https://iphonepay.ru/sitemap.xml
