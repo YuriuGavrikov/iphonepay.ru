@@ -45,7 +45,8 @@ const getImg = (iphone, curentColor) => {
     <div class="card__specifications">
       <div class="card__specifications__item"><b>Характеристки:</b></div>
       <div class="card__specifications__item">
-        <p><b>Процессор:</b> {{ iphone.processor.chip }}</p>
+        <p><b>Процессор:</b></p>
+        <p>{{ iphone.processor.chip }}</p>
         <p>{{ iphone.processor.cores }}</p>
       </div>
       <div class="card__specifications__item">
