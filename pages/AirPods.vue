@@ -1,4 +1,13 @@
 <script setup>
+useHead({
+  title: "Каталог AirPods",
+  meta: [
+    {
+      name: "description",
+      content: "Купить AirPods с доставкой по лучшей цене в вашем городе",
+    },
+  ],
+});
 import BDAirpods from "../DataBase/airpods.json";
 
 const filteredAirPods = computed(() => {
