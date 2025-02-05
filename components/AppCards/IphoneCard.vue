@@ -49,12 +49,16 @@ const getImg = (iphone, curentColor) => {
         <p>{{ iphone.processor.cores }}</p>
       </div>
       <div class="card__specifications__item">
-        <p><b>Основная камера:</b> {{ iphone.camera.rear.main }}</p>
-        <p><b>Широкоугольная камера:</b> {{ iphone.camera.rear.ultra_wide }}</p>
-        <p><b>Фронтальная камера:</b> {{ iphone.camera.front.resolution }}</p>
+        <p><b>Основная камера:</b></p>
+        <p>{{ iphone.camera.rear.main }}</p>
+        <p><b>Широкоугольная камера:</b></p>
+        <p>{{ iphone.camera.rear.ultra_wide }}</p>
+        <p><b>Фронтальная камера:</b></p>
+        <p>{{ iphone.camera.front.resolution }}</p>
       </div>
       <div class="card__specifications__item">
-        <p><b>Дисплей:</b> {{ iphone.display.type }}</p>
+        <p><b>Дисплей:</b></p>
+        <p>{{ iphone.display.type }}</p>
         <p>{{ iphone.display.size }}</p>
         <p>{{ iphone.display.refresh_rate }}</p>
       </div>
@@ -81,10 +85,11 @@ const getImg = (iphone, curentColor) => {
   align-items: center;
   gap: 10px;
 
-  padding: 10px 0 40px 0;
-
-  flex: 1 1 25%; /* Каждый элемент занимает 25% ширины контейнера */
-  margin-bottom: 40px;
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
   &__img {
     display: flex;
     align-items: center;
@@ -96,8 +101,8 @@ const getImg = (iphone, curentColor) => {
   &__specifications {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     margin-top: 30px;
+    font-size: 14px;
     &__item {
       text-align: center;
       padding: 10px 40px;

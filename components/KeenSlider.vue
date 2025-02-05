@@ -14,6 +14,11 @@ const [container, slider] = useKeenSlider({
       if (isTablet) return 2.5;
       if (isMobile) return 1.5;
     },
+    spacing: () => {
+      if (isDesktop) return 50;
+      if (isTablet) return 50;
+      if (isMobile) return 30;
+    },
   },
 });
 
@@ -50,6 +55,6 @@ const isSliderHide = ref(false);
   mask: linear-gradient(to top, transparent, rgb(255, 255, 255) 30%);
 }
 .slider_show {
-  height: 1150px;
+  height: 1060px;
 }
 </style>

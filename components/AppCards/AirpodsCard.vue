@@ -47,10 +47,17 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
+
+  margin-bottom: 30px;
 
   flex: 1 1 25%; /* Каждый элемент занимает 25% ширины контейнера */
 
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
   &__img {
     display: flex;
     align-items: center;
@@ -59,18 +66,19 @@ const props = defineProps({
   &__img img {
     width: 100%;
   }
-  &__title {
-    text-align: center;
-  }
   &__specifications {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 30px;
+    font-size: 14px;
     &__item {
       text-align: center;
       padding: 10px 40px;
     }
+  }
+}
+@media (max-width: 1200px) {
+  .card {
+    flex: 1 1 50%;
   }
 }
 </style>
