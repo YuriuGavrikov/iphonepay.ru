@@ -12,6 +12,7 @@ const handleError = () => clearError({ redirect: "/" });
       <p>Код ошибки: {{ error.statusCode }}</p>
       <p>{{ error.message }}</p>
       <TheButton textBtn="Вернуться на iPhonePay.ru" @click="handleError" />
+      <p>test</p>
     </div>
   </div>
 </template>
