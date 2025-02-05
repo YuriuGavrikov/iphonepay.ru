@@ -55,6 +55,6 @@ const isSliderHide = ref(false);
   mask: linear-gradient(to top, transparent, rgb(255, 255, 255) 30%);
 }
 .slider_show {
-  height: 1060px;
+  min-height: 900px;
 }
 </style>

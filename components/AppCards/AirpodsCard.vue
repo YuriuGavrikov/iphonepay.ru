@@ -15,7 +15,12 @@ const props = defineProps({
     <div class="card__specifications">
       <div class="card__specifications__item"><b>Характеристки:</b></div>
       <div class="card__specifications__item">
-        <p><b>Год выпуска:</b> {{ airpods.release_year }}</p>
+        <p><b>Чип:</b></p>
+        <p>{{ airpods.chip }}</p>
+      </div>
+      <div class="card__specifications__item">
+        <p><b>Тип:</b></p>
+        <p>{{ airpods.type }}</p>
       </div>
       <div class="card__specifications__item">
         <p><b>Батарея:</b></p>
@@ -25,18 +30,15 @@ const props = defineProps({
         </p>
       </div>
       <div class="card__specifications__item">
-        <p><b>Чип:</b> {{ airpods.chip }}</p>
-      </div>
-      <div class="card__specifications__item">
-        <p><b>Тип:</b> {{ airpods.type }}</p>
-      </div>
-      <div class="card__specifications__item">
         <p><b>Питание:</b></p>
         <p>{{ airpods.charging_case.type }}</p>
       </div>
       <div class="card__specifications__item">
         <p><b>Прочее:</b></p>
         <p v-for="feature in airpods.features">{{ feature }}</p>
+      </div>
+      <div class="card__specifications__item">
+        <p><b>Год выпуска:</b> {{ airpods.release_year }}</p>
       </div>
     </div>
   </div>
