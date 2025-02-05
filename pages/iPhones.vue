@@ -1,6 +1,16 @@
 <script setup>
 import { computed } from "vue";
 
+useHead({
+  title: "Каталог iPhone",
+  meta: [
+    {
+      name: "description",
+      content: "Купить iPhone с доставкой по лучшей цене в вашем городе",
+    },
+  ],
+});
+
 import BDiPhones from "../DataBase/iphones.json";
 
 const filteredIphone15 = computed(() => {
