@@ -29,7 +29,7 @@ onMounted(() => {
       :loop="true"
       :controls="false"
       playsinline
-      :poster="props.poster"
+      :poster="none"
     />
     <button class="videoBtn" @click="playing = !playing">
       <svg
