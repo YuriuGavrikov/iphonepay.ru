@@ -1,6 +1,5 @@
 <script setup>
 useHead({
-  title: "iPhonePay.ru",
   meta: [{ name: "yandex-verification", content: "e47f3e029594dc43" }],
   meta: [
     {

@@ -1,4 +1,15 @@
-<script setup></script>
+<script setup>
+useHead({
+  title: "Техника Apple",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Техника Apple в вашем городе с доставкой iPhone | AirPods | iPad | Wathces",
+    },
+  ],
+});
+</script>
 
 <template>
   <h1>Apple</h1>
