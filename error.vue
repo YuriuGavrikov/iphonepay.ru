@@ -8,11 +8,10 @@ const handleError = () => clearError({ redirect: "/" });
 
 <template>
   <div class="error">
-    <div class="error__content">
-      <p>Код ошибки: {{ error.statusCode }}</p>
-      <p>{{ error.message }}</p>
-      <TheButton textBtn="Вернуться на iPhonePay.ru" @click="handleError" />
-    </div>
+    <img src="./public/robo.webp" alt="" />
+    <p>Код ошибки: {{ error.statusCode }}</p>
+    <p>{{ error.message }}</p>
+    <TheButton textBtn="Вернуться на iPhonePay.ru" @click="handleError" />
   </div>
 </template>
 
@@ -22,27 +21,17 @@ const handleError = () => clearError({ redirect: "/" });
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(./public/orig.webp) no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  &__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  gap: 10px;
 
-    padding: 100px;
+  width: 100%;
 
-    border: 10px solid rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
+  position: fixed;
+  top: 30%;
 
-    background-color: rgba(244, 244, 244, 0.8);
-    p {
-      font-size: 30px;
-      font-weight: 700;
-    }
+  font-weight: 700;
+
+  img {
+    width: 300px;
   }
 }
 </style>
