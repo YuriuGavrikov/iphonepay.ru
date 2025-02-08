@@ -67,14 +67,19 @@ const filteredAirPods = computed(() => {
 }
 
 @media (max-width: 1200px) {
-  .airpods__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    height: 150px;
+  .airpods {
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      height: 150px;
+    }
+    &__text {
+      text-align: center;
+    }
   }
 }
 </style>

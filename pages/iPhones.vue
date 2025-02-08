@@ -94,14 +94,19 @@ const filteredIphone13 = computed(() => {
 }
 
 @media (max-width: 1200px) {
-  .iphones__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    height: 150px;
+  .iphones {
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      height: 150px;
+    }
+    &__text {
+      text-align: center;
+    }
   }
 }
 </style>
