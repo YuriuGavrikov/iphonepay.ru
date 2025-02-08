@@ -1,13 +1,15 @@
 <script setup>
 useHead({
-  meta: [{ name: "yandex-verification", content: "e47f3e029594dc43" }],
+  title: "Техника Apple",
   meta: [
     {
-      property: "og:title",
-      content: "Купить iPhone | iPad | AirPods | Watches",
+      name: "description",
+      content:
+        "Техника Apple в вашем городе с доставкой iPhone | AirPods | iPad | Wathces",
     },
   ],
 
+  meta: [{ name: "yandex-verification", content: "e47f3e029594dc43" }],
   script: [
     {
       innerHTML: `
