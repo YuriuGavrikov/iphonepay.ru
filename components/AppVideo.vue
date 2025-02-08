@@ -67,7 +67,7 @@ onMounted(() => {
   width: 100%;
   height: 60vh;
 
-  padding: 20px;
+  padding: 20px 0;
   video {
     width: 100%;
     height: 100%;
