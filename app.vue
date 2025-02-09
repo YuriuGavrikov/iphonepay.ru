@@ -5,6 +5,7 @@
     </NuxtLayout>
   </div>
 </template>
+
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 

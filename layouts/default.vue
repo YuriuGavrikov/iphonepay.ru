@@ -1,14 +1,8 @@
 <script setup>
 useHead({
-  title: "Техника Apple",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Техника Apple в вашем городе с доставкой iPhone | AirPods | iPad | Wathces",
-    },
-  ],
-
+  htmlAttrs: {
+    lang: "ru",
+  },
   meta: [{ name: "yandex-verification", content: "e47f3e029594dc43" }],
   script: [
     {
