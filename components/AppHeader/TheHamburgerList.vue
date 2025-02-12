@@ -7,7 +7,7 @@ const myStore = useMyStore();
     <ul class="nav__list">
       <li class="nav__item">
         <NuxtLink
-          to="/iphones"
+          to="/iphones/"
           @click="
             myStore.navigation.isShowNavigation =
               !myStore.navigation.isShowNavigation
@@ -18,7 +18,7 @@ const myStore = useMyStore();
       </li>
       <li class="nav__item">
         <NuxtLink
-          to="/airpods"
+          to="/airpods/"
           @click="
             myStore.navigation.isShowNavigation =
               !myStore.navigation.isShowNavigation
@@ -29,7 +29,7 @@ const myStore = useMyStore();
       </li>
       <li class="nav__item">
         <NuxtLink
-          to="/ipads"
+          to="/ipads/"
           @click="
             myStore.navigation.isShowNavigation =
               !myStore.navigation.isShowNavigation
@@ -40,7 +40,7 @@ const myStore = useMyStore();
       </li>
       <li class="nav__item">
         <NuxtLink
-          to="/watches"
+          to="/watches/"
           @click="
             myStore.navigation.isShowNavigation =
               !myStore.navigation.isShowNavigation
@@ -51,7 +51,7 @@ const myStore = useMyStore();
       </li>
       <li class="nav__item">
         <NuxtLink
-          to="/blog"
+          to="/blog/"
           @click="
             myStore.navigation.isShowNavigation =
               !myStore.navigation.isShowNavigation

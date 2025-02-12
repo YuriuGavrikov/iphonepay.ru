@@ -14,7 +14,7 @@ useHead({
 <template>
   <h1>Apple</h1>
   <div class="products">
-    <NuxtLink to="/iphones">
+    <NuxtLink to="/iphones/">
       <div class="products__item">
         <img
           src="https://www.apple.com/v/iphone/home/ca/images/chapternav/iphone_14_light__cazn2nyanwuq_large.svg"
@@ -24,7 +24,7 @@ useHead({
       </div>
     </NuxtLink>
 
-    <NuxtLink to="/airpods">
+    <NuxtLink to="/airpods/">
       <div class="products__item">
         <img
           src="https://www.apple.com/v/airpods/x/images/chapternav/airpods_pro_light__ets5a19rt3au_large.svg"
@@ -34,7 +34,7 @@ useHead({
       </div>
     </NuxtLink>
 
-    <NuxtLink to="/ipads">
+    <NuxtLink to="/ipads/">
       <div class="products__item">
         <img
           src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/ipad_air_a326338d6.svg"
@@ -44,7 +44,7 @@ useHead({
       </div>
     </NuxtLink>
 
-    <NuxtLink to="/watches">
+    <NuxtLink to="/watches/">
       <div class="products__item">
         <img
           src="https://www.apple.com/v/watch/bp/images/chapternav/watch_nav_nike_light__c36zk943xfo2_large.svg"

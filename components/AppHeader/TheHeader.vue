@@ -12,19 +12,19 @@ const myStore = useMyStore();
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
-          <NuxtLink to="/iphones">iPhones</NuxtLink>
+          <NuxtLink to="/iphones/">iPhones</NuxtLink>
         </li>
         <li class="nav__item">
-          <NuxtLink to="/airpods">AirPods</NuxtLink>
+          <NuxtLink to="/airpods/">AirPods</NuxtLink>
         </li>
         <li class="nav__item">
-          <NuxtLink to="/ipads">iPads</NuxtLink>
+          <NuxtLink to="/ipads/">iPads</NuxtLink>
         </li>
         <li class="nav__item">
-          <NuxtLink to="/watches">Watches</NuxtLink>
+          <NuxtLink to="/watches/">Watches</NuxtLink>
         </li>
         <li class="nav__item">
-          <NuxtLink to="/blog">Blog</NuxtLink>
+          <NuxtLink to="/blog/">Blog</NuxtLink>
         </li>
       </ul>
     </nav>
