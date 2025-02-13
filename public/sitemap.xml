@@ -1,42 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://iphonepay.ru/</loc>
-  <lastmod>2025-01-31T22:45:27+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://iphonepay.ru/</loc>
+<lastmod>2025-02-13T14:17:41+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://iphonepay.ru/iphones/</loc>
-  <lastmod>2025-01-31T22:45:27+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://iphonepay.ru/iphones/</loc>
+<lastmod>2025-02-13T14:17:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://iphonepay.ru/airpods/</loc>
-  <lastmod>2025-01-31T22:45:27+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://iphonepay.ru/airpods/</loc>
+<lastmod>2025-02-13T14:17:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://iphonepay.ru/ipads/</loc>
-  <lastmod>2025-01-31T22:45:27+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://iphonepay.ru/ipads/</loc>
+<lastmod>2025-02-13T14:17:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://iphonepay.ru/watches/</loc>
-  <lastmod>2025-01-31T22:45:27+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://iphonepay.ru/watches/</loc>
+<lastmod>2025-02-13T14:17:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://iphonepay.ru/blog/</loc>
-  <lastmod>2025-01-31T22:45:27+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://iphonepay.ru/blog/</loc>
+<lastmod>2025-02-13T14:17:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_15/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_15_Plus/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_15_Pro/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_15_Pro_Max/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_14/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_14_Plus/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_14_Pro/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_14_Pro_Max/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_13_mini/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_13/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_13_Pro/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://iphonepay.ru/iphones/model-iPhone_13_Pro_Max/</loc>
+<lastmod>2025-02-13T14:17:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
 </urlset>

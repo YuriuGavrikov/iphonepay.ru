@@ -1,9 +1,26 @@
 User-agent: *
 Allow: /
 Allow: /iphones/
+
+Allow: /iphones/model-iPhone_15/
+Allow: /iphones/model-iPhone_15_Plus/
+Allow: /iphones/model-iPhone_15_Pro/
+Allow: /iphones/model-iPhone_15_Pro_Max/
+
+Allow: /iphones/model-iPhone_14/
+Allow: /iphones/model-iPhone_14_Plus/
+Allow: /iphones/model-iPhone_14_Pro/
+Allow: /iphones/model-iPhone_14_Pro_Max/
+
+Allow: /iphones/model-iPhone_13/
+Allow: /iphones/model-iPhone_13_mini/
+Allow: /iphones/model-iPhone_13_Pro/
+Allow: /iphones/model-iPhone_13_Pro_Max/
+
 Allow: /airpods/
 Allow: /ipads/
 Allow: /watches/
 Allow: /blog/
+
 
 Sitemap: https://iphonepay.ru/sitemap.xml
