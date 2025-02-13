@@ -48,7 +48,7 @@ input[type="checkbox"] {
   display: block;
   width: 30px;
   height: 2px;
-  background: rgb(44, 62, 80);
+  background: var(--text-one);
   top: 0;
   margin-bottom: 10px;
   transition: 0.2s;
@@ -94,7 +94,7 @@ input[type="checkbox"] {
   position: absolute;
   width: 0;
   height: 2px;
-  background: rgb(93, 62, 59);
+  background: var(--text-one);
   top: 50%;
   left: 50%;
   transition: 0.2s;

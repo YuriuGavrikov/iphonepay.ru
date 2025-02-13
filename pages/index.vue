@@ -59,7 +59,7 @@ useHead({
 <style lang="scss" scoped>
 h1 {
   font-size: 70px;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--text-one);
 
   padding: 40px;
 }
@@ -67,7 +67,7 @@ h1 {
   display: flex;
   align-items: baseline;
   gap: 50px;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--text-one);
 
   font-size: 30px;
   padding: 20px;

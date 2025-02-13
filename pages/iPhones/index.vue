@@ -11,7 +11,7 @@ useHead({
   ],
 });
 
-import BDiPhones from "../DataBase/iphones.json";
+import BDiPhones from "../../DataBase/iphones.json";
 
 const filteredIphone15 = computed(() => {
   const result = [];

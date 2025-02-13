@@ -48,11 +48,6 @@ const myStore = useMyStore();
 </template>
 
 <style lang="scss">
-a {
-  text-decoration: none;
-  color: #000c;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;

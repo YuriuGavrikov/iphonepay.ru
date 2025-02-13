@@ -21,40 +21,21 @@ const [container, slider] = useKeenSlider({
     },
   },
 });
-
-const isSliderHide = ref(false);
 </script>
 
 <template>
-  <div
-    ref="container"
-    :class="[
-      'keen-slider',
-      { slider_hide: !isSliderHide, slider_show: isSliderHide },
-    ]"
-  >
+  <div ref="container" :class="['keen-slider']">
     <AppCardsIphoneCard
       v-for="iphone in whatModel"
       :key="iphone.model"
       :iphone="iphone"
     />
   </div>
-  <TheButton
-    :textBtn="isSliderHide ? 'Скрыть' : 'Показать больше'"
-    @click="isSliderHide = !isSliderHide"
-  />
+
 </template>
 
 <style lang="scss" scoped>
 .keen-slider {
   transition: height 0.3s ease;
-}
-.slider_hide {
-  overflow: hidden;
-  height: 600px;
-  mask: linear-gradient(to top, transparent, rgb(255, 255, 255) 30%);
-}
-.slider_show {
-  min-height: 900px;
 }
 </style>

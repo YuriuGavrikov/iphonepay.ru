@@ -11,12 +11,12 @@ const props = defineProps({
 <style lang="scss" scoped>
 .btn {
   padding: 0 25px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid var(--text-one);
   border-radius: 20px;
   height: 46px;
   font-size: 14px;
   font-weight: 600;
-  color: #444;
+  color: var(--text-one);
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(65, 132, 144, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
