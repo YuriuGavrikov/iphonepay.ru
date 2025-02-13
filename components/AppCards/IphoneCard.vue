@@ -11,7 +11,7 @@ const getImg = (iphone, curentColor) => {
   return iphone.colors[curentColor].link;
 };
 
-const iPhoneModel = `/iphones/model-${props.iphone.model}`;
+const iPhoneModel = `/iphones/model-${props.iphone.model.replace(/ /g, "_")}`;
 </script>
 
 <template>
@@ -62,7 +62,7 @@ const iPhoneModel = `/iphones/model-${props.iphone.model}`;
   align-items: center;
   gap: 10px;
 
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 
   &__title {
     display: flex;
@@ -71,6 +71,7 @@ const iPhoneModel = `/iphones/model-${props.iphone.model}`;
     font-size: 30px;
     font-weight: 700;
     min-height: 70px;
+    text-align: center;
   }
   &__img {
     display: flex;

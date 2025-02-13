@@ -2,19 +2,24 @@
 import { ref } from "vue";
 import BDiPhones from "../DataBase/iphones.json";
 
+const { iphoneModelCard } = useRoute().params;
+
+const iconSize = "70px";
+
 useHead({
-  title: "Каталог iPhone",
+  title: `Купить ${iphoneModelCard.replace(/_/g, " ")}`,
   meta: [
     {
       name: "description",
-      content: "Купить iPhone с доставкой по лучшей цене в вашем городе",
+      content: `Купить ${iphoneModelCard.replace(
+        /_/g,
+        " "
+      )} с доставкой по лучшей цене в вашем городе`,
     },
   ],
 });
 
-const { iphoneModelCard } = useRoute().params;
-
-const iphone = BDiPhones[iphoneModelCard.replace(/ /g, "_")];
+const iphone = BDiPhones[iphoneModelCard];
 const curentColor = ref(Object.values(iphone.colors)[0].colorName);
 
 const getImg = (iphone, curentColor) => {
@@ -28,9 +33,9 @@ const getImg = (iphone, curentColor) => {
       <div class="card__hello__img">
         <img :src="getImg(iphone, curentColor)" alt="" />
       </div>
-      <div class="card__hello__title">
+      <h1 class="card__hello__title">
         {{ iphone.model }}
-      </div>
+      </h1>
       <div class="card__hello__colors">
         <div
           class="radio"
@@ -63,52 +68,52 @@ const getImg = (iphone, curentColor) => {
       <div class="div1">
         <Icon
           name="solar:cpu-bolt-linear"
-          size="50px"
+          :size="iconSize"
           style="color: var(--icon-one)"
         />
 
-        <p><b>Процессор:</b></p>
+        <h2>Процессор:</h2>
         <p>{{ iphone.processor.chip }}</p>
         <p>{{ iphone.processor.cores }}</p>
       </div>
       <div class="div2">
         <Icon
           name="material-symbols:water-drop-outline"
-          size="50px"
+          :size="iconSize"
           style="color: var(--icon-one)"
         />
-        <p><b>Водонепроницаемость:</b></p>
+        <h2>Защита:</h2>
         <p>{{ iphone.body.water_resistance }}</p>
       </div>
       <div class="div3">
         <Icon
           name="eos-icons:molecules-outlined"
-          size="50px"
+          :size="iconSize"
           style="color: var(--icon-one)"
         />
-        <p><b>Материалы:</b></p>
+        <h2>Материалы:</h2>
         <p>{{ iphone.body.material }}</p>
       </div>
       <div class="div4">
         <Icon
           name="material-symbols:android-camera-outline"
-          size="50px"
+          :size="iconSize"
           style="color: var(--icon-one)"
         />
-        <p><b>Основная камера:</b></p>
+        <h2>Основная камера:</h2>
         <p>{{ iphone.camera.rear.main }}</p>
-        <p><b>Широкоугольная камера:</b></p>
+        <h2>Широкоугольная камера:</h2>
         <p>{{ iphone.camera.rear.ultra_wide }}</p>
-        <p><b>Фронтальная камера:</b></p>
+        <h2>Фронтальная камера:</h2>
         <p>{{ iphone.camera.front.resolution }}</p>
       </div>
       <div class="div5">
         <Icon
           name="material-symbols:open-in-phone-outline"
-          size="50px"
+          :size="iconSize"
           style="color: var(--icon-one)"
         />
-        <p><b>Дисплей:</b></p>
+        <h2>Дисплей:</h2>
         <p>{{ iphone.display.type }}</p>
         <p>{{ iphone.display.size }}</p>
         <p>{{ iphone.display.refresh_rate }}</p>
@@ -116,11 +121,11 @@ const getImg = (iphone, curentColor) => {
       <div class="div6">
         <Icon
           name="tdesign:hard-disk-storage"
-          size="50px"
+          :size="iconSize"
           style="color: var(--icon-one)"
         />
-        <p><b>Память:</b></p>
-        <p v-for="options in iphone.storage.options">{{ options }}</p>
+        <h2>Память:</h2>
+        <span v-for="options in iphone.storage.options">{{ options }}</span>
       </div>
     </div>
   </div>
@@ -129,7 +134,11 @@ const getImg = (iphone, curentColor) => {
 <style lang="scss" scoped>
 .card {
   display: flex;
-  padding: 30px 0;
+  padding: 40px 0;
+  font-size: 16px;
+  h2 {
+    font-size: 18px;
+  }
   &__hello {
     display: flex;
     flex-direction: column;
@@ -193,9 +202,13 @@ const getImg = (iphone, curentColor) => {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   width: 70%;
+  height: 550px;
 }
 .parent > div {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
   border: 1px solid gray;
   border-radius: 10px;
   padding: 20px;
@@ -225,42 +238,64 @@ const getImg = (iphone, curentColor) => {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
+    padding: 0;
 
-    gap: 30px;
-    padding: 30px 0;
+    font-size: 20px;
+    h2 {
+      font-size: 26px;
+    }
   }
 
   .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     width: 100%;
-    font-size: 14px;
+    height: 100%;
   }
+
   .parent > div {
-    padding: 5px;
+    padding: 30px;
   }
 
   .div1 {
-    grid-area: 1 / 1 / 5 / 2;
+    grid-area: 1 / 1 / 3 / 2;
   }
   .div2 {
-    grid-area: 1 / 2 / 3 / 3;
+    grid-area: 1 / 2 / 2 / 3;
   }
   .div3 {
-    grid-area: 3 / 2 / 7 / 3;
+    grid-area: 2 / 2 / 3 / 3;
   }
   .div4 {
-    grid-area: 5 / 1 / 9 / 2;
+    grid-area: 3 / 2 / 5 / 3;
   }
   .div5 {
-    grid-area: 7 / 2 / 11 / 3;
+    grid-area: 3 / 1 / 4 / 2;
   }
   .div6 {
-    grid-area: 9 / 1 / 11 / 2;
+    grid-area: 4 / 1 / 5 / 2;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+    padding: 0;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .parent > div {
+    padding: 20px;
   }
 }
 </style>
