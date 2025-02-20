@@ -2,45 +2,20 @@
 const props = defineProps({
   airpods: Object,
 });
+
+const airpodsModel = `/airpods/model-${props.airpods.model.replace(/ /g, "_")}`;
 </script>
 
 <template>
   <div class="card">
-    <div class="card__img">
-      <img :src="airpods.img" alt="" />
-    </div>
-    <h2 class="card__title">
-      {{ airpods.model }}
-    </h2>
-    <div class="card__specifications">
-      <div class="card__specifications__item"><b>Характеристки:</b></div>
-      <div class="card__specifications__item">
-        <p><b>Чип:</b></p>
-        <p>{{ airpods.chip }}</p>
+    <NuxtLink :to="airpodsModel">
+      <div class="card__img">
+        <img :src="airpods.img" alt="" />
       </div>
-      <div class="card__specifications__item">
-        <p><b>Тип:</b></p>
-        <p>{{ airpods.type }}</p>
-      </div>
-      <div class="card__specifications__item">
-        <p><b>Батарея:</b></p>
-        <p><b>Наушники:</b> {{ airpods.battery_life.earbuds }}</p>
-        <p v-if="airpods.battery_life.with_case">
-          <b>С кейсом:</b> {{ airpods.battery_life.with_case }}
-        </p>
-      </div>
-      <div class="card__specifications__item">
-        <p><b>Питание:</b></p>
-        <p>{{ airpods.charging_case.type }}</p>
-      </div>
-      <div class="card__specifications__item">
-        <p><b>Прочее:</b></p>
-        <p v-for="feature in airpods.features">{{ feature }}</p>
-      </div>
-      <div class="card__specifications__item">
-        <p><b>Год выпуска:</b> {{ airpods.release_year }}</p>
-      </div>
-    </div>
+      <h2 class="card__title">
+        {{ airpods.model }}
+      </h2>
+    </NuxtLink>
   </div>
 </template>
 
@@ -67,15 +42,6 @@ const props = defineProps({
   }
   &__img img {
     width: 100%;
-  }
-  &__specifications {
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    &__item {
-      text-align: center;
-      padding: 10px 40px;
-    }
   }
 }
 @media (max-width: 1200px) {

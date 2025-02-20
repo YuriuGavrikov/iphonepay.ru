@@ -24,7 +24,7 @@ useHead({
       </div>
     </NuxtLink>
 
-    <NuxtLink to="/airpods/">
+    <NuxtLink to="/AirPods/">
       <div class="products__item">
         <img
           src="https://www.apple.com/v/airpods/x/images/chapternav/airpods_pro_light__ets5a19rt3au_large.svg"

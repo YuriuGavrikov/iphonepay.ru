@@ -116,10 +116,10 @@ const iPhoneModel = `/iphones/model-${props.iphone.model.replace(/ /g, "_")}`;
 }
 @media (max-width: 1200px) {
   .card__colors {
-    gap: 3px;
+    gap: 5px;
     .radio-input {
-      width: 20px;
-      height: 20px;
+      width: 22px;
+      height: 22px;
     }
   }
 }

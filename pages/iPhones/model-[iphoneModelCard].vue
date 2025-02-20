@@ -19,7 +19,7 @@ useHead({
   ],
 });
 
-const iphone = BDiPhones[iphoneModelCard];
+const iphone = BDiPhones[iphoneModelCard.replace(/_/g, " ")];
 const curentColor = ref(Object.values(iphone.colors)[0].colorName);
 
 const getImg = (iphone, curentColor) => {
