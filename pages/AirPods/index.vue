@@ -29,6 +29,7 @@ const filteredAirPods = computed(() => {
       :video="BDAirpods.video.videoUrl"
       :poster="BDAirpods.video.videoPoster"
     />
+
     <div class="airpods__products">
       <AppCardsAirpodsCard
         v-for="airpods in filteredAirPods"
@@ -60,9 +61,12 @@ const filteredAirPods = computed(() => {
     font-size: 20px;
     font-weight: 700;
   }
-  .airpods__products {
-    display: flex;
-    flex-wrap: wrap;
+  &__products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 70px;
   }
 }
 
@@ -79,6 +83,15 @@ const filteredAirPods = computed(() => {
     }
     &__text {
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .airpods {
+    &__products {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

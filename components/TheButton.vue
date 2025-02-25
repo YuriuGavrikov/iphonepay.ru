@@ -10,15 +10,16 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .btn {
-  padding: 0 25px;
+  width: 50%;
+  padding: 10px 25px;
   border: 1px solid var(--text-one);
   border-radius: 20px;
-  height: 46px;
   font-size: 14px;
   font-weight: 600;
   color: var(--text-one);
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(65, 132, 144, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
 @keyframes slideme {
   0% {
@@ -59,5 +60,11 @@ const props = defineProps({
   animation-delay: 0.05s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+
+@media (max-width: 1200px) {
+  .btn {
+    width: 100%;
+  }
 }
 </style>

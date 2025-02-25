@@ -13,6 +13,7 @@ useHead({
 
 <template>
   <h1>Apple</h1>
+
   <div class="products">
     <NuxtLink to="/iphones/">
       <div class="products__item">
@@ -65,12 +66,12 @@ h1 {
 }
 .products {
   display: flex;
-  align-items: baseline;
-  gap: 50px;
+  gap: 30px;
+
   color: var(--text-one);
 
   font-size: 30px;
-  padding: 20px;
+
   &__item {
     display: flex;
     flex-direction: column;
@@ -91,18 +92,18 @@ h1 {
 
 @media (max-width: 1200px) {
   .products {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    font-size: 20px;
-    &__item {
-      height: 150px;
-      width: 150px;
-      img {
-        height: 80px;
-      }
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+}
+@media (max-width: 760px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 }
 </style>

@@ -51,6 +51,7 @@ const iPhoneModel = `/iphones/model-${props.iphone.model.replace(/ /g, "_")}`;
           </label>
         </div>
       </div>
+      <TheButton textBtn="Где купить" />
     </div>
   </div>
 </template>
@@ -85,6 +86,7 @@ const iPhoneModel = `/iphones/model-${props.iphone.model.replace(/ /g, "_")}`;
 .card__colors {
   display: flex;
   gap: 10px;
+  margin-bottom: 30px;
   .radio {
     display: flex;
     justify-content: center;

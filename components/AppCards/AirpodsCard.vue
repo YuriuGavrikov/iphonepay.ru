@@ -9,13 +9,16 @@ const airpodsModel = `/airpods/model-${props.airpods.model.replace(/ /g, "_")}`;
 <template>
   <div class="card">
     <NuxtLink :to="airpodsModel">
-      <div class="card__img">
-        <img :src="airpods.img" alt="" />
+      <div class="card__inner">
+        <div class="card__inner__img">
+          <img :src="airpods.img" alt="" />
+        </div>
+        <h2 class="card__inner__title">
+          {{ airpods.model }}
+        </h2>
       </div>
-      <h2 class="card__title">
-        {{ airpods.model }}
-      </h2>
     </NuxtLink>
+    <TheButton textBtn="Где купить" />
   </div>
 </template>
 
@@ -23,12 +26,15 @@ const airpodsModel = `/airpods/model-${props.airpods.model.replace(/ /g, "_")}`;
 .card {
   display: flex;
   flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: end;
+}
+.card__inner {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 30px;
-
-  margin-bottom: 30px;
-
-  flex: 1 1 25%; /* Каждый элемент занимает 25% ширины контейнера */
 
   &__title {
     font-size: 30px;
@@ -42,11 +48,6 @@ const airpodsModel = `/airpods/model-${props.airpods.model.replace(/ /g, "_")}`;
   }
   &__img img {
     width: 100%;
-  }
-}
-@media (max-width: 1200px) {
-  .card {
-    flex: 1 1 50%;
   }
 }
 </style>
